@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 5V_Two_Channel_Relay_Module-Driver_Relay-pc-schema-rescue-raspberry-schema-rescue-raspberry-schema-rescue
+#
+DEF 5V_Two_Channel_Relay_Module-Driver_Relay-pc-schema-rescue-raspberry-schema-rescue-raspberry-schema-rescue U 0 40 Y Y 1 F N
+F0 "U" 400 700 50 H V L CNN
+F1 "5V_Two_Channel_Relay_Module-Driver_Relay-pc-schema-rescue-raspberry-schema-rescue-raspberry-schema-rescue" 400 600 50 H V L CNN
+F2 "" 400 500 50 H I L CNN
+F3 "" 0 -100 50 H I C CNN
+$FPLIST
+ TSSOP*4.4x5mm*P0.65mm*
+$ENDFPLIST
+DRAW
+S -400 600 400 -500 0 1 10 f
+X VCC 1 0 700 100 D 50 50 1 1 W
+X IN1 2 -500 100 100 R 50 50 1 1 I
+X IN2 3 -500 0 100 R 50 50 1 1 I
+X GND 4 0 -600 100 U 50 50 1 1 W
+X COM1 ~ 500 300 100 L 50 50 1 1 U
+X COM2 ~ 500 0 100 L 50 50 1 1 U
+X NC1 ~ 500 100 100 L 50 50 1 1 U
+X NC2 ~ 500 -200 100 L 50 50 1 1 U
+X NO1 ~ 500 200 100 L 50 50 1 1 U
+X NO2 ~ 500 -100 100 L 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library
