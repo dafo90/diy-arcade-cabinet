@@ -1,6 +1,6 @@
 # DIY Arcade Cabinet
 
-## 1. My experiente, my passion... my story
+## 1. My experience, my passion... my story
 
 ### 1.1 TL;DR
 
